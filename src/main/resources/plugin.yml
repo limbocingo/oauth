@@ -1,0 +1,23 @@
+name: Authentication
+version: '${project.version}'
+main: com.github.limbocingo.authentication.Plugin
+api-version: 1.19
+authors: [ limbocingo ]
+description: Autentificación del servidor MineCoin.
+website: github.com/limbocingo/
+commands:
+  login:
+    description: "Login in the server."
+    usage: "login [password]"
+
+  register:
+    description: "Create a new account."
+    usage: "register [password]"
+
+  recover:
+    description: "Reset the password of your account."
+    usage: "recover [new password] [code]"
+
+  2fa:
+    description: "2 step authentication linked with discord."
+    usage: "2fa [discord id]"

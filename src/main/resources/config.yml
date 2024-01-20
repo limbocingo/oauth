@@ -1,0 +1,13 @@
+# - - - - - - - - - - -
+# | Token of your bot |
+# - - - - - - - - - - -
+bot: ""
+
+# - - - - - - - - - - - -
+# | MySQL Configuration |
+# - - - - - - - - - - - -
+mysql:
+  username: "root"
+  password: ""
+  database: "authentication"
+  hostname: "localhost"
